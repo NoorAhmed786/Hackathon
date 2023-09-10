@@ -1,0 +1,130 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.header {
+    margin-top: 50px;
+    font-size: 36px;
+    color: #333;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   
+   
+}
+
+.option {
+    margin: 0 20px;
+    text-align: center;
+    margin-left: 50px;
+    
+}
+
+.icon {
+    font-size: 48px;
+    color: #a974ee;
+}
+
+.text a {
+    font-size: 30px;
+    color: #333;
+    text-decoration: none;
+}
+.text{
+    margin-top: 19px;
+
+}
+.banner_container{
+    margin-top: 230px;
+}
+
+/* // admin form and student form */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group p{
+    font-size: 15px;
+
+}
+.form-group p a{
+    font-size: 20px;
+    color: #a974ee;
+    text-decoration: none;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+select {
+    appearance: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #a974ee;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #a974ee;
+}
+.login-container{
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+

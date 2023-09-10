@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        
+        /* /// header */
+        
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color:#a974ee;
+            padding: 10px 20px;
+            color: #fff;
+            margin-top: -10px;
+        }
+        
+        .logo {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+        
+        .logout  {
+            font-size: 24px;
+            cursor: pointer;
+            text-decoration: none;
+            color: #fff;
+        }
+            </style>
+        </head>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <span class="logo"><i class="fas fa-graduation-cap"></i>Student login</span>
+        </div>
+        <div>
+            <span class="logout" onclick="logout()"><i class="fas fa-sign-out-alt"></i><a class ="logout"href="./index.html"> Logout</a></span>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Student Attendance</h2>
+        <form>
+            <div class="form-group">
+                <label for="studentName">Student Name:</label>
+                <input type="text" id="studentName" name="studentName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="studentID">Student ID:</label>
+                <input type="text" id="studentID" name="studentID" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="course">Course:</label>
+                <input type="text" id="course" name="course" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="attendanceDate">Attendance Date:</label>
+                <input type="date" id="attendanceDate" name="attendanceDate" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="attendanceStatus">Attendance Status:</label>
+                <select id="attendanceStatus" name="attendanceStatus" required>
+                    <option value="present">Present</option>
+                    <option value="absent">Absent</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <input type="submit" value="Submit Attendance" class="btn">
+            </div>
+        </form>
+    </div>
+    <script type="module" src="./assets/js/app.js"></script>
+</body>
+</html>
